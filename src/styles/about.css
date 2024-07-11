@@ -1,0 +1,78 @@
+.about{
+    margin: 3% 15%;
+}
+
+.carousel{
+    position: relative;
+}
+
+.carousel-items{
+    padding: 3rem;
+    background-color: rgba(165, 165, 165, 0.2);
+    border-radius: 20px;
+    /* border: 1px solid rgba(78, 78, 78, 0.5); */
+    border: none;
+    text-align: center;
+}
+
+.leftArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 45px;
+}
+
+
+.rightArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 45px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.carousel-item  h1{
+    font-size: 2rem;
+}
+
+.carousel-item{
+    margin: auto 1rem;
+    padding: 0.5rem auto;
+    border-radius: 10px;
+    height: 150px;
+
+}
+
+.aim{
+    font-size: 1rem;
+}
+
+.abt-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+
+@media (max-width : 900px){
+    .carousel-items{
+        padding: 3rem;
+    }
+    .about{
+        margin: 2%;
+    }
+    .carousel-item h1{
+        font-size: 1.5rem;
+    }
+    .carousel-item p{
+        font-size: 0.8rem;
+    }
+}

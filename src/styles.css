@@ -1,0 +1,21 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+#root{
+    height: 100vh;
+    background-image: url('/src/images/dark-mountain-gd3o1mx0wxezbewk.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3% 5%;
+}
+
+@media (max-width: 950px){
+    #root{
+        height: auto;
+    }
+}
